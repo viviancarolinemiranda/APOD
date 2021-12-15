@@ -4,24 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" src="./style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>APOD - Astronomy Picture Of The Day</title>
   </head>
   <body>
     <header>
-      <div>IMAGEM APOD</div>
       <div>
-        <label for="data">Change a day.</label>
+        <img class="img" src="" />
+        <p>APOD</p>
+      </div>
+      <div>
         <input type="date" name="input-data" id="input-data" required />
         <button id="enviar">Search</button>
       </div>
-      <div>IMAGEM NASA</div>
+      <div>
+        <img
+          class="img"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
+        />
+      </div>
     </header>
     <main>
       <h1 id="titulo"></h1>
       <p id="data"></p>
       <img id="imagem" src="" />
-      <iframe id="video"></iframe> display none
+      <iframe id="video"></iframe>
       <p id="autor"></p>
       <p id="descricao"></p>
     </main>
