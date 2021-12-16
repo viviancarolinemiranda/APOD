@@ -5,13 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap"
+      rel="stylesheet"
+    />
     <title>APOD - Astronomy Picture Of The Day</title>
   </head>
   <body>
     <header>
       <div>
-        <img class="img" src="" />
-        <p>APOD</p>
+        <nav>
+          <a href="https://www.nasa.gov/"><img class="img" src="" /></a>
+        </nav>
+        <p id="apod">APOD</p>
       </div>
       <div>
         <input type="date" name="input-data" id="input-data" required />
@@ -30,7 +44,10 @@
       <img id="imagem" src="" />
       <iframe id="video"></iframe>
       <p id="autor"></p>
-      <p id="descricao"></p>
+      <p id="descricao">
+        Este site apresenta imagens do universo de acordo com a data escolhida.
+        Selecione uma data.
+      </p>
     </main>
     <footer>
       <p>
