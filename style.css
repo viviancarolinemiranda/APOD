@@ -30,6 +30,10 @@ header {
   font-size: 30px;
   font-family: "Bakbak One", cursive;
 }
+#apod a {
+  color: inherit;
+  text-decoration: none;
+}
 button {
   box-shadow: inset 0px 1px 0px 0px #e184f3;
   background: linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
