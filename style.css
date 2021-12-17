@@ -76,6 +76,7 @@ main {
 }
 #titulo {
   font-family: "Bakbak One", cursive;
+  color: rgb(10, 10, 36);
 }
 #data {
   padding: 1%;
@@ -94,6 +95,7 @@ main {
 }
 #descricao {
   text-align: justify;
+  font-weight: 600;
 }
 footer {
   width: 100%;
@@ -108,6 +110,7 @@ footer {
 }
 @media (max-width: 700px) {
   header {
+    width: 100%;
     padding: 5%;
   }
   #apod {
@@ -115,5 +118,32 @@ footer {
   }
   .img {
     display: none;
+  }
+  main {
+    width: 90vw;
+    height: auto;
+    margin: 5%;
+  }
+  #titulo {
+    font-size: 20px;
+  }
+  #data {
+    font-size: 14px;
+  }
+  #imagem {
+    object-fit: cover;
+    max-width: 100%;
+  }
+  #video {
+    max-width: 100%;
+    height: auto;
+  }
+  #autor {
+    font-size: 14px;
+    padding: 3%;
+  }
+  footer {
+    font-size: 10px;
+    padding: 1% 10px;
   }
 }
